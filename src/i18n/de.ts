@@ -5,7 +5,7 @@ export const de: Dict = {
     title:
       "MetallBrücke — Beratung für türkische Metallverarbeiter im deutschen Markt",
     description:
-      "Türkisch-deutsches Ingenieurteam mit aktiver Berufserfahrung in Deutschland. Zertifizierungs-Roadmap nach EN 1090 und ISO 3834, Zeichnungsinterpretation, Kundenvertretung.",
+      "Türkisch-deutsches Fachteam mit aktiver Berufserfahrung in Deutschland. Zertifizierungs-Roadmap nach EN 1090 und ISO 3834, Zeichnungsinterpretation, Kundenvertretung.",
   },
   nav: {
     home: "Startseite",
@@ -20,7 +20,7 @@ export const de: Dict = {
     title:
       "Für türkische Metallverarbeiter, die nach Deutschland exportieren wollen: Wir sind Ihr Gesicht in Deutschland.",
     subtitle:
-      "Türkisch-deutsches Ingenieurteam in aktiver industrieller Position in Deutschland. Von Zertifizierungs-Roadmap über Zeichnungsinterpretation bis zur Kundenkommunikation begleiten wir Sie durch den gesamten Prozess.",
+      "Türkisch-deutsches Fachteam in aktiver industrieller Position in Deutschland. Von Zertifizierungs-Roadmap über Zeichnungsinterpretation bis zur Kundenkommunikation begleiten wir Sie durch den gesamten Prozess.",
     ctaPrimary: "Kostenloses Erstgespräch",
     ctaSecondary: "Unsere Leistungen",
   },
@@ -29,7 +29,7 @@ export const de: Dict = {
     items: [
       { value: "12+", label: "Jahre in der deutschen Industrie" },
       { value: "0", label: "Bindung an Zertifizierungsstellen" },
-      { value: "3", label: "Türkisch-deutsche Ingenieure" },
+      { value: "3", label: "Türkisch-deutsche Fachkräfte" },
       { value: "DE+TR", label: "Zwei Sprachen, zwei Kulturen vor Ort" },
     ],
   },
@@ -113,7 +113,7 @@ export const de: Dict = {
         items: [
           "Produktions- und Qualitätsleiter, die zum ersten Mal mit deutschen Zeichnungen arbeiten",
           "Hersteller, die Reklamationen erhalten und die Ursache in der Zeichnungsinterpretation vermuten",
-          "Betriebe, die ihre Ingenieure schnell weiterbilden möchten",
+          "Betriebe, die ihr Fertigungs- und QS-Personal schnell weiterbilden möchten",
           "Firmen, die Schwierigkeiten haben, Zeichnungen in der Angebotsphase korrekt zu kalkulieren",
         ],
       },
@@ -138,7 +138,7 @@ export const de: Dict = {
           },
           {
             title: "Schulung (optional)",
-            desc: "2-stündige Live-Schulung Ihrer Ingenieure und Schweißer zur Zeichnungsinterpretation.",
+            desc: "2-stündige Live-Schulung Ihres Fertigungs- und QS-Personals zur Zeichnungsinterpretation.",
           },
         ],
       },
@@ -247,7 +247,7 @@ export const de: Dict = {
   },
   team: {
     eyebrow: "Team",
-    title: "Türkisch-deutsches Ingenieurteam",
+    title: "Türkisch-deutsches Fachteam",
     caseLabel: "Fallbeispiel",
     caseLabels: {
       situation: "Ausgangslage",
@@ -258,8 +258,8 @@ export const de: Dict = {
     members: [
       {
         name: "Hamdi Güncavdi",
-        role: "IT & CAD",
-        bio: "12+ Jahre IT-Manager in Deutschland. Aktiv mit SolidWorks und AutoCAD in Stahlkonstruktion und Blechverarbeitung. Koordiniert die Türkei-Deutschland-Operationen.",
+        role: "Produktionsleiter · CAD-Spezialist",
+        bio: "Langjährige Erfahrung als Produktionsleiter in Deutschland. Praxiserprobt mit SolidWorks und AutoCAD in Stahlkonstruktion und Blechverarbeitung. Koordiniert die Türkei-Deutschland-Operationen.",
         case: {
           situation:
             "Ein Hersteller von Landmaschinen aus Konya betreute parallel vier deutsche Kunden.",
@@ -273,8 +273,8 @@ export const de: Dict = {
       },
       {
         name: "Fatih",
-        role: "Qualitätsingenieur",
-        bio: "Spezialist für Schweißtechnik und Metallurgie. Praxiserfahrung in EN 1090 und ISO 3834 Prozessen. Experte für WPS und PQR.",
+        role: "Schweißfachmann (DVS)",
+        bio: "DVS-zertifizierter Schweißfachmann. Aktiv in der industriellen Schweißfertigung in Deutschland. Praxiserfahrung in EN 1090, ISO 3834, WPS- und PQR-Prozessen.",
         case: {
           situation:
             "Ein Blechkonstruktionsbetrieb in Bursa strebte für den deutschen Markt die EN 1090 EXC2 an.",
@@ -288,8 +288,8 @@ export const de: Dict = {
       },
       {
         name: "Erkan",
-        role: "Qualitätsingenieur",
-        bio: "Zeichnungsinterpretation, GD&T, Messsysteme. Aktiv in der deutschen Automobilzulieferindustrie.",
+        role: "Schweißfachmann (DVS)",
+        bio: "DVS-zertifizierter Schweißfachmann. Aktiv in der deutschen Automobilzulieferindustrie. Praxiserfahrung in Zeichnungsinterpretation, GD&T-Toleranzen und Messsystemen.",
         case: {
           situation:
             "Ein Maschinenbauunternehmen in Eskişehir erhielt eine Zeichnung für die Lieferantenfreigabe eines deutschen Automotive-OEM.",
@@ -308,7 +308,7 @@ export const de: Dict = {
     title:
       "10 Fragen, die Sie sich stellen müssen, bevor Sie Schweißteile nach Deutschland verkaufen",
     description:
-      "Aus 12 Jahren Qualitätsingenieurpraxis in Deutschland. PDF-Leitfaden per E-Mail. Kein Spam — nur die PDF + monatliches Branchenupdate.",
+      "Aus langjähriger Fertigungs- und Qualitätspraxis in Deutschland. PDF-Leitfaden per E-Mail. Kein Spam — nur die PDF + monatliches Branchenupdate.",
     emailPlaceholder: "ihre@firma.com",
     submit: "PDF senden",
     consent:
@@ -319,11 +319,11 @@ export const de: Dict = {
   about: {
     title: "Über uns",
     subtitle:
-      "Eine Brücke, die drei in Deutschland arbeitende türkische Ingenieure für türkische Hersteller errichtet haben.",
+      "Eine Brücke, die drei in Deutschland arbeitende türkische Fachkräfte für türkische Hersteller errichtet haben.",
     story: {
       title: "Unsere Geschichte",
       paragraphs: [
-        "MetallBrücke entstand aus den Beobachtungen dreier türkischer Ingenieure, die seit Jahren in industriellen Positionen in Deutschland arbeiten. Wir sahen beide Seiten der Bühne: türkische Firmen, die gut produzieren, aber bei Verkäufen nach Deutschland mit Kommunikation, Zertifikaten und Toleranzen kämpfen — und deutsche Kunden, die mit türkischen Lieferanten zufrieden sind, sich aber „einfachere Kommunikation\" wünschen.",
+        "MetallBrücke entstand aus den Beobachtungen dreier türkischer Fachkräfte, die seit Jahren in industriellen Positionen in Deutschland arbeiten — einerseits in der Produktionsleitung, andererseits als DVS-zertifizierte Schweißfachmänner. Wir sahen beide Seiten der Bühne: türkische Firmen, die gut produzieren, aber bei Verkäufen nach Deutschland mit Kommunikation, Zertifikaten und Toleranzen kämpfen — und deutsche Kunden, die mit türkischen Lieferanten zufrieden sind, sich aber „einfachere Kommunikation\" wünschen.",
         "Eine Gleichung, in der beide verlieren. Türkische Hersteller bekommen Reklamationen, deutsche Kunden wechseln den Lieferanten. Das Problem liegt nicht in der technischen Fähigkeit — sondern in der Brücke aus Information, Zertifikat und Sprache.",
         "Um diese Brücke zu bauen, haben wir uns zusammengefunden. Wir stellen keine Zertifikate aus, wir produzieren nicht. Wir sind nur eine neutrale Brücke — in Information, Sprache, Kultur und Qualitätsprozessen.",
       ],

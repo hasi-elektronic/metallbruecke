@@ -2,7 +2,7 @@ export const tr = {
   meta: {
     title: "MetallBrücke — Türk Metal İmalatçıları için Almanya Pazarı Danışmanlığı",
     description:
-      "Almanya'da aktif çalışan Türk-Alman mühendis ekibi. EN 1090, ISO 3834 belge yol haritası, teknik resim yorumlama, Alman müşteri temsili.",
+      "Almanya'da aktif çalışan Türk-Alman uzman ekibi. EN 1090, ISO 3834 belge yol haritası, teknik resim yorumlama, Alman müşteri temsili.",
   },
   nav: {
     home: "Ana Sayfa",
@@ -17,7 +17,7 @@ export const tr = {
     title:
       "Almanya'ya kaynaklı imalat satmak isteyen Türk üreticiler için: Almanya'daki yüzünüz biziz.",
     subtitle:
-      "Almanya'da aktif endüstriyel pozisyonda çalışan Türk-Alman mühendis ekibi. Belgeden teknik resme, kalite kontrolden Alman müşteriyle iletişime kadar tüm süreci sizinle birlikte yönetiyoruz.",
+      "Almanya'da aktif endüstriyel pozisyonda çalışan Türk-Alman uzman ekibi. Belgeden teknik resme, kalite kontrolden Alman müşteriyle iletişime kadar tüm süreci sizinle birlikte yönetiyoruz.",
     ctaPrimary: "Ücretsiz Ön Görüşme",
     ctaSecondary: "Hizmetlerimiz",
   },
@@ -26,7 +26,7 @@ export const tr = {
     items: [
       { value: "12+", label: "Yıl Alman endüstrisinde aktif" },
       { value: "0", label: "Belgeleme kuruluşu bağı" },
-      { value: "3", label: "Türk-Alman mühendis" },
+      { value: "3", label: "Türk-Alman uzman" },
       { value: "DE+TR", label: "Sahada iki dil, iki kültür" },
     ],
   },
@@ -110,7 +110,7 @@ export const tr = {
         items: [
           "İlk Alman teknik resmiyle karşılaşan üretim ve kalite müdürleri",
           "Reklamasyon almış, sebebini çizim yorumlamasında arayan firmalar",
-          "Yeni mühendis kadrosunu hızla yetkinleştirmek isteyen üreticiler",
+          "Yeni kalite ve üretim kadrosunu hızla yetkinleştirmek isteyen üreticiler",
           "Teklif aşamasında çizimi doğru fiyatlandırmakta zorlanan firmalar",
         ],
       },
@@ -135,7 +135,7 @@ export const tr = {
           },
           {
             title: "Eğitim oturumu (opsiyonel)",
-            desc: "Mühendis ve operatörlerinize 2 saatlik canlı yorumlama eğitimi.",
+            desc: "Üretim ve kalite ekibinize 2 saatlik canlı yorumlama eğitimi.",
           },
         ],
       },
@@ -244,7 +244,7 @@ export const tr = {
   },
   team: {
     eyebrow: "Ekip",
-    title: "Türk-Alman mühendis ekibi",
+    title: "Türk-Alman uzman ekibi",
     caseLabel: "Vaka örneği",
     caseLabels: {
       situation: "Durum",
@@ -255,8 +255,8 @@ export const tr = {
     members: [
       {
         name: "Hamdi Güncavdi",
-        role: "IT & CAD",
-        bio: "Almanya'da 12+ yıl IT yöneticisi. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde aktif. Türkiye-Almanya operasyonlarını koordine eder.",
+        role: "Production Manager · CAD Uzmanı",
+        bio: "Almanya'da uzun yıllar Produktionsleiter olarak çalıştı. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde sahada deneyim sahibi. Türkiye-Almanya operasyonlarını koordine eder.",
         case: {
           situation:
             "Konya'lı bir tarım makineleri üreticisi 4 farklı Alman müşteriyle paralel görüşme yürütüyordu.",
@@ -270,8 +270,8 @@ export const tr = {
       },
       {
         name: "Fatih",
-        role: "Kalite Mühendisi",
-        bio: "Kaynak teknolojisi ve metalurji uzmanı. EN 1090, ISO 3834 sürecinde derin saha tecrübesi. WPS ve PQR uzmanı.",
+        role: "Schweißfachmann (DVS)",
+        bio: "DVS sertifikalı kaynak uzmanı. Almanya'da endüstriyel kaynak üretiminde aktif. EN 1090, ISO 3834, WPS ve PQR süreçlerinde saha deneyimi.",
         case: {
           situation:
             "Bursa'da bir sac konstrüksiyon firması Alman pazarı için EN 1090 EXC2 hedefliyordu.",
@@ -285,8 +285,8 @@ export const tr = {
       },
       {
         name: "Erkan",
-        role: "Kalite Mühendisi",
-        bio: "Teknik resim yorumlama, GD&T toleransları, ölçüm sistemleri. Alman otomotiv yan sanayisinde aktif.",
+        role: "Schweißfachmann (DVS)",
+        bio: "DVS sertifikalı kaynak uzmanı. Alman otomotiv yan sanayisinde aktif. Teknik resim yorumlama, GD&T toleransları ve ölçüm sistemlerinde sahada deneyim.",
         case: {
           situation:
             "Eskişehir'de bir makine imalat firması Alman otomotiv ana sanayisinden tedarikçi onay süreci için çizim aldı.",
@@ -305,7 +305,7 @@ export const tr = {
     title:
       "Almanya'ya kaynaklı imalat satmadan önce sormanız gereken 10 kritik soru",
     description:
-      "12 yıllık Almanya kalite mühendisliği deneyimiyle hazırladığımız PDF rehberi e-mail adresinize gönderelim. Spam yok, sadece bu PDF + ayda bir kez sektör güncellemesi.",
+      "Almanya'daki uzun yıllık saha ve kalite deneyimimizle hazırladığımız PDF rehberi e-mail adresinize gönderelim. Spam yok, sadece bu PDF + ayda bir kez sektör güncellemesi.",
     emailPlaceholder: "ornek@firmaniz.com.tr",
     submit: "PDF'i Gönder",
     consent:
@@ -316,11 +316,11 @@ export const tr = {
   about: {
     title: "Hakkımızda",
     subtitle:
-      "Almanya'da çalışan üç Türk mühendisin, Türkiye'deki üreticiler için kurduğu bir köprü.",
+      "Almanya'da çalışan üç Türk uzmanın, Türkiye'deki üreticiler için kurduğu bir köprü.",
     story: {
       title: "Hikayemiz",
       paragraphs: [
-        "MetallBrücke, Almanya'da yıllardır endüstriyel pozisyonlarda çalışan üç Türk mühendisin gözlemlerinden doğdu. Aynı sahnenin iki yanını da gördük: Türkiye'de iyi üreten ama Almanya'ya satarken iletişim, belge, tolerans sorunlarıyla boğuşan firmalar — ve Almanya'da Türk tedarikçiden memnun ama \"keşke iletişim daha kolay olsa\" diyen müşteriler.",
+        "MetallBrücke, Almanya'da yıllardır endüstriyel pozisyonlarda çalışan üç Türk uzmanın gözlemlerinden doğdu. Bir tarafta Almanya'da uzun yıllar produksyon yönetimi, diğer tarafta DVS sertifikalı kaynak üretimi — aynı sahnenin iki yanını da gördük: Türkiye'de iyi üreten ama Almanya'ya satarken iletişim, belge, tolerans sorunlarıyla boğuşan firmalar — ve Almanya'da Türk tedarikçiden memnun ama \"keşke iletişim daha kolay olsa\" diyen müşteriler.",
         "İki tarafın da kaybettiği bir denklem. Türk üretici reklamasyon yiyor, Alman müşteri tedarikçi değiştiriyor. Sorun teknik kapasitede değil — bilgi, belge, dil köprüsünde.",
         "Bu köprüyü kurmak için bir araya geldik. Belge basmıyoruz, üretim yapmıyoruz. Sadece tarafsız bir köprüyüz — bilgi, dil, kültür ve kalite süreçlerinde.",
       ],

@@ -190,7 +190,7 @@ export function Home() {
 
               <div className="mt-7 space-y-3">
                 {[
-                  lang === "tr" ? "12 yıl Almanya kalite mühendisliği özeti" : "12 Jahre QM-Praxis in Deutschland zusammengefasst",
+                  lang === "tr" ? "Almanya'daki uzun yıllık saha ve kalite tecrübemizin özeti" : "Langjährige Praxis aus der deutschen Fertigung zusammengefasst",
                   lang === "tr" ? "10 kritik soru + 10 doğrulanmış cevap" : "10 kritische Fragen + 10 belastbare Antworten",
                   lang === "tr" ? "Anında PDF, e-posta listesinden istediğinde çık" : "Sofort als PDF, jederzeit abbestellbar",
                 ].map((s, i) => (
