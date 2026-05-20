@@ -255,8 +255,8 @@ export const tr = {
     members: [
       {
         name: "Hamdi Güncavdi",
-        role: "Production Manager · CAD Uzmanı",
-        bio: "Almanya'da uzun yıllar Produktionsleiter olarak çalıştı. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde sahada deneyim sahibi. Türkiye-Almanya operasyonlarını koordine eder.",
+        role: "CAD & Operasyon",
+        bio: "Almanya endüstrisinde uzun yıllık saha deneyimi. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde sahada deneyim sahibi. Türkiye-Almanya operasyonlarını koordine eder.",
         case: {
           situation:
             "Konya'lı bir tarım makineleri üreticisi 4 farklı Alman müşteriyle paralel görüşme yürütüyordu.",
@@ -320,7 +320,7 @@ export const tr = {
     story: {
       title: "Hikayemiz",
       paragraphs: [
-        "MetallBrücke, Almanya'da yıllardır endüstriyel pozisyonlarda çalışan üç Türk uzmanın gözlemlerinden doğdu. Bir tarafta Almanya'da uzun yıllar produksyon yönetimi, diğer tarafta DVS sertifikalı kaynak üretimi — aynı sahnenin iki yanını da gördük: Türkiye'de iyi üreten ama Almanya'ya satarken iletişim, belge, tolerans sorunlarıyla boğuşan firmalar — ve Almanya'da Türk tedarikçiden memnun ama \"keşke iletişim daha kolay olsa\" diyen müşteriler.",
+        "MetallBrücke, Almanya'da yıllardır endüstriyel pozisyonlarda çalışan üç Türk uzmanın gözlemlerinden doğdu. Bir tarafta uzun yıllık üretim sahası ve CAD deneyimi, diğer tarafta DVS sertifikalı kaynak üretimi — aynı sahnenin iki yanını da gördük: Türkiye'de iyi üreten ama Almanya'ya satarken iletişim, belge, tolerans sorunlarıyla boğuşan firmalar — ve Almanya'da Türk tedarikçiden memnun ama \"keşke iletişim daha kolay olsa\" diyen müşteriler.",
         "İki tarafın da kaybettiği bir denklem. Türk üretici reklamasyon yiyor, Alman müşteri tedarikçi değiştiriyor. Sorun teknik kapasitede değil — bilgi, belge, dil köprüsünde.",
         "Bu köprüyü kurmak için bir araya geldik. Belge basmıyoruz, üretim yapmıyoruz. Sadece tarafsız bir köprüyüz — bilgi, dil, kültür ve kalite süreçlerinde.",
       ],

@@ -258,8 +258,8 @@ export const de: Dict = {
     members: [
       {
         name: "Hamdi Güncavdi",
-        role: "Produktionsleiter · CAD-Spezialist",
-        bio: "Langjährige Erfahrung als Produktionsleiter in Deutschland. Praxiserprobt mit SolidWorks und AutoCAD in Stahlkonstruktion und Blechverarbeitung. Koordiniert die Türkei-Deutschland-Operationen.",
+        role: "CAD & Operations",
+        bio: "Langjährige Praxiserfahrung in der deutschen Industrie. Praxiserprobt mit SolidWorks und AutoCAD in Stahlkonstruktion und Blechverarbeitung. Koordiniert die Türkei-Deutschland-Operationen.",
         case: {
           situation:
             "Ein Hersteller von Landmaschinen aus Konya betreute parallel vier deutsche Kunden.",
@@ -323,7 +323,7 @@ export const de: Dict = {
     story: {
       title: "Unsere Geschichte",
       paragraphs: [
-        "MetallBrücke entstand aus den Beobachtungen dreier türkischer Fachkräfte, die seit Jahren in industriellen Positionen in Deutschland arbeiten — einerseits in der Produktionsleitung, andererseits als DVS-zertifizierte Schweißfachmänner. Wir sahen beide Seiten der Bühne: türkische Firmen, die gut produzieren, aber bei Verkäufen nach Deutschland mit Kommunikation, Zertifikaten und Toleranzen kämpfen — und deutsche Kunden, die mit türkischen Lieferanten zufrieden sind, sich aber „einfachere Kommunikation\" wünschen.",
+        "MetallBrücke entstand aus den Beobachtungen dreier türkischer Fachkräfte, die seit Jahren in industriellen Positionen in Deutschland arbeiten — einerseits mit langjähriger Praxis in Fertigung und CAD, andererseits als DVS-zertifizierte Schweißfachmänner. Wir sahen beide Seiten der Bühne: türkische Firmen, die gut produzieren, aber bei Verkäufen nach Deutschland mit Kommunikation, Zertifikaten und Toleranzen kämpfen — und deutsche Kunden, die mit türkischen Lieferanten zufrieden sind, sich aber „einfachere Kommunikation\" wünschen.",
         "Eine Gleichung, in der beide verlieren. Türkische Hersteller bekommen Reklamationen, deutsche Kunden wechseln den Lieferanten. Das Problem liegt nicht in der technischen Fähigkeit — sondern in der Brücke aus Information, Zertifikat und Sprache.",
         "Um diese Brücke zu bauen, haben wir uns zusammengefunden. Wir stellen keine Zertifikate aus, wir produzieren nicht. Wir sind nur eine neutrale Brücke — in Information, Sprache, Kultur und Qualitätsprozessen.",
       ],
