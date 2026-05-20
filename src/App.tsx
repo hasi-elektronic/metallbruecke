@@ -10,6 +10,7 @@ import { Services } from "./pages/Services";
 import { ServiceDetail } from "./pages/ServiceDetail";
 import { About } from "./pages/About";
 import { Resources } from "./pages/Resources";
+import { Standards } from "./pages/Standards";
 import { Contact } from "./pages/Contact";
 import { Impressum, Datenschutz } from "./pages/Legal";
 
@@ -65,6 +66,7 @@ export function App() {
             </Route>
             <Route path="/hakkimizda" component={About} />
             <Route path="/kaynaklar" component={Resources} />
+            <Route path="/standartlar" component={Standards} />
             <Route path="/iletisim" component={Contact} />
             <Route path="/impressum" component={Impressum} />
             <Route path="/gizlilik" component={Datenschutz} />
@@ -83,6 +85,7 @@ export function App() {
             </Route>
             <Route path="/de/ueber-uns" component={About} />
             <Route path="/de/ressourcen" component={Resources} />
+            <Route path="/de/normen" component={Standards} />
             <Route path="/de/kontakt" component={Contact} />
             <Route path="/de/impressum" component={Impressum} />
             <Route path="/de/datenschutz" component={Datenschutz} />

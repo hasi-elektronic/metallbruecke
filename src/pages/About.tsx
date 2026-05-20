@@ -1,4 +1,4 @@
-import { MapPin } from "lucide-react";
+import { MapPin, AlertTriangle, Wrench, Target } from "lucide-react";
 import { Container, Section, SectionEyebrow, SectionTitle } from "../components/ui/Layout";
 import { useT } from "../i18n/useTranslation";
 import { useSeo } from "../lib/seo";
@@ -40,25 +40,69 @@ export function About() {
         </div>
       </Section>
 
-      {/* Team */}
+      {/* Team — with case studies */}
       <Section className="bg-offwhite">
         <div className="max-w-3xl mb-12">
           <SectionEyebrow>{t.team.eyebrow}</SectionEyebrow>
           <SectionTitle>{t.team.title}</SectionTitle>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           {t.team.members.map((member, i) => (
-            <div key={i} className="bg-white rounded-2xl p-7 md:p-8 border border-navy-100">
-              <div className="h-16 w-16 rounded-full bg-navy text-amber font-display font-bold text-2xl flex items-center justify-center mb-5">
-                {member.name.split(" ").map((p) => p[0]).join("")}
+            <div
+              key={i}
+              className="bg-white rounded-2xl border border-navy-100 overflow-hidden flex flex-col"
+            >
+              {/* Header: avatar + name */}
+              <div className="p-7 md:p-8 pb-5">
+                <div className="h-16 w-16 rounded-full bg-navy text-amber font-display font-bold text-2xl flex items-center justify-center mb-5">
+                  {member.name.split(" ").map((p) => p[0]).join("")}
+                </div>
+                <h3 className="font-display font-bold text-lg text-navy">{member.name}</h3>
+                <div className="text-amber-500 font-semibold text-sm mt-1">{member.role}</div>
+                <p className="mt-4 text-anthracite/80 text-[15px] leading-relaxed">{member.bio}</p>
               </div>
-              <h3 className="font-display font-bold text-lg text-navy">{member.name}</h3>
-              <div className="text-amber-500 font-semibold text-sm mt-1">{member.role}</div>
-              <p className="mt-4 text-anthracite/80 text-[15px] leading-relaxed">{member.bio}</p>
+
+              {/* Case study */}
+              <div className="mt-auto p-6 md:p-7 bg-navy-50/60 border-t border-navy-100">
+                <div className="text-xs font-bold uppercase tracking-widest text-amber-600 mb-4">
+                  {t.team.caseLabel}
+                </div>
+                <dl className="space-y-3 text-sm">
+                  <CaseRow
+                    icon={<MapPin className="h-3.5 w-3.5" />}
+                    label={t.team.caseLabels.situation}
+                    text={member.case.situation}
+                  />
+                  <CaseRow
+                    icon={<AlertTriangle className="h-3.5 w-3.5" />}
+                    label={t.team.caseLabels.problem}
+                    text={member.case.problem}
+                    danger
+                  />
+                  <CaseRow
+                    icon={<Wrench className="h-3.5 w-3.5" />}
+                    label={t.team.caseLabels.solution}
+                    text={member.case.solution}
+                  />
+                  <CaseRow
+                    icon={<Target className="h-3.5 w-3.5" />}
+                    label={t.team.caseLabels.result}
+                    text={member.case.result}
+                    accent
+                  />
+                </dl>
+              </div>
             </div>
           ))}
         </div>
+
+        {/* Disclaimer for anonymous cases */}
+        <p className="mt-8 text-xs text-anthracite/55 max-w-3xl">
+          {lang === "tr"
+            ? "* Vaka örnekleri gerçek projelere dayanır; müşteri kimlikleri ticari gizlilik gereği anonimleştirilmiştir."
+            : "* Die Fallbeispiele basieren auf realen Projekten; Kundenidentitäten wurden aus Gründen der Vertraulichkeit anonymisiert."}
+        </p>
       </Section>
 
       {/* Values */}
@@ -125,5 +169,41 @@ export function About() {
         </div>
       </Section>
     </>
+  );
+}
+
+function CaseRow({
+  icon,
+  label,
+  text,
+  danger,
+  accent,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  text: string;
+  danger?: boolean;
+  accent?: boolean;
+}) {
+  const dotClass = danger
+    ? "bg-red-100 text-red-700"
+    : accent
+      ? "bg-amber-100 text-amber-700"
+      : "bg-navy-100 text-navy-600";
+  return (
+    <div className="flex gap-3">
+      <span
+        className={`flex-shrink-0 inline-flex h-6 w-6 items-center justify-center rounded-full mt-0.5 ${dotClass}`}
+        aria-hidden="true"
+      >
+        {icon}
+      </span>
+      <div className="min-w-0">
+        <dt className="text-[11px] font-bold uppercase tracking-wider text-navy/60 mb-0.5">
+          {label}
+        </dt>
+        <dd className="text-anthracite/85 leading-relaxed">{text}</dd>
+      </div>
+    </div>
   );
 }

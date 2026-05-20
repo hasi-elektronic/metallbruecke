@@ -1,7 +1,8 @@
-import { ArrowUpRight, FileText, Download } from "lucide-react";
+import { ArrowUpRight, FileText, Download, BookOpen, ArrowRight } from "lucide-react";
 import { Container, Section, SectionEyebrow, SectionTitle } from "../components/ui/Layout";
 import { LeadMagnetForm } from "../components/Forms";
-import { useT } from "../i18n/useTranslation";
+import { Button } from "../components/ui/Button";
+import { useT, r } from "../i18n/useTranslation";
 import { useSeo } from "../lib/seo";
 
 export function Resources() {
@@ -46,8 +47,58 @@ export function Resources() {
         </div>
       </Section>
 
-      {/* Blog placeholder */}
+      {/* Standards Teaser */}
       <Section className="bg-white">
+        <div className="bg-gradient-to-br from-navy to-navy-700 text-white rounded-3xl p-8 md:p-12 lg:p-16 relative overflow-hidden">
+          {/* Decorative pattern */}
+          <div className="absolute inset-0 opacity-[0.06] pointer-events-none" aria-hidden="true">
+            <svg className="w-full h-full" viewBox="0 0 400 200">
+              <defs>
+                <pattern id="std-teaser-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                  <path d="M0 20 L40 20 M20 0 L20 40" stroke="#F4A024" strokeWidth="0.5" />
+                </pattern>
+              </defs>
+              <rect width="400" height="200" fill="url(#std-teaser-grid)" />
+            </svg>
+          </div>
+          <div className="relative grid lg:grid-cols-3 gap-8 items-center">
+            <div className="lg:col-span-2">
+              <div className="inline-flex items-center gap-2 mb-5 px-3 py-1.5 bg-amber/10 border border-amber/30 rounded-full">
+                <BookOpen className="h-3.5 w-3.5 text-amber-300" />
+                <span className="text-amber-300 font-semibold text-xs uppercase tracking-widest">
+                  {t.resources.standardsTeaser.eyebrow}
+                </span>
+              </div>
+              <h2 className="font-display font-extrabold text-3xl md:text-4xl leading-tight mb-5">
+                {t.resources.standardsTeaser.title}
+              </h2>
+              <p className="text-white/85 leading-relaxed text-lg max-w-2xl">
+                {t.resources.standardsTeaser.desc}
+              </p>
+              {/* Standard code chips */}
+              <div className="mt-7 flex flex-wrap gap-2">
+                {["EN 1090", "ISO 3834", "ISO 5817", "ISO 1101", "EN ISO 9606", "DIN EN ISO 22553"].map((code) => (
+                  <span
+                    key={code}
+                    className="px-3 py-1 bg-white/10 border border-white/15 rounded-md text-xs font-mono text-white/90"
+                  >
+                    {code}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="lg:text-right">
+              <Button href={r("standards", lang)} variant="primary" size="lg">
+                {t.resources.standardsTeaser.cta}
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Blog placeholder */}
+      <Section className="bg-offwhite">
         <div className="max-w-3xl mb-10">
           <SectionEyebrow>
             {lang === "tr" ? "Blog" : "Blog"}
@@ -55,7 +106,7 @@ export function Resources() {
           <SectionTitle>{t.resources.blogTitle}</SectionTitle>
         </div>
 
-        <div className="bg-offwhite border-2 border-dashed border-navy-100 rounded-2xl p-12 text-center">
+        <div className="bg-white border-2 border-dashed border-navy-100 rounded-2xl p-12 text-center">
           <FileText className="h-12 w-12 text-amber mx-auto mb-4" />
           <h3 className="font-display font-bold text-xl text-navy mb-2">
             {t.resources.comingSoon}
@@ -67,7 +118,7 @@ export function Resources() {
       </Section>
 
       {/* Useful links */}
-      <Section className="bg-offwhite">
+      <Section className="bg-white">
         <div className="max-w-3xl mb-10">
           <SectionEyebrow>
             {lang === "tr" ? "Bağlantılar" : "Links"}
@@ -82,7 +133,7 @@ export function Resources() {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-xl p-6 border-2 border-navy-100 hover:border-amber transition-colors"
+              className="group bg-offwhite rounded-xl p-6 border-2 border-navy-100 hover:border-amber transition-colors"
             >
               <div className="flex items-start justify-between gap-3">
                 <div>

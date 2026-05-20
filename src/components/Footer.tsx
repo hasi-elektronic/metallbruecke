@@ -85,6 +85,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href={r("standards", lang)} className="text-white/80 hover:text-white transition-colors">
+                  {t.footer.company.standards}
+                </Link>
+              </li>
+              <li>
                 <Link href={r("contact", lang)} className="text-white/80 hover:text-white transition-colors">
                   {t.footer.company.contact}
                 </Link>

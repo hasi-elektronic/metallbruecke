@@ -245,21 +245,58 @@ export const tr = {
   team: {
     eyebrow: "Ekip",
     title: "Türk-Alman mühendis ekibi",
+    caseLabel: "Vaka örneği",
+    caseLabels: {
+      situation: "Durum",
+      problem: "Sorun",
+      solution: "Çözüm",
+      result: "Sonuç",
+    },
     members: [
       {
         name: "Hamdi Güncavdi",
         role: "IT & CAD",
         bio: "Almanya'da 12+ yıl IT yöneticisi. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde aktif. Türkiye-Almanya operasyonlarını koordine eder.",
+        case: {
+          situation:
+            "Konya'lı bir tarım makineleri üreticisi 4 farklı Alman müşteriyle paralel görüşme yürütüyordu.",
+          problem:
+            "Her müşteriyle ayrı e-mail, ayrı 3D model versiyonu, ayrı teklif. Bir müşteri 'bilgi gecikti' diye projeyi başkasına verdi.",
+          solution:
+            "Müşteri başına klasör yapısı, sürüm kontrollü 3D model akışı, standart Almanca teklif şablonları, haftalık takip protokolü.",
+          result:
+            "6 ayda 3 müşteriden tekrar sipariş; paralel müşteri kapasitesi 4'ten 8'e çıktı.",
+        },
       },
       {
         name: "Fatih",
         role: "Kalite Mühendisi",
         bio: "Kaynak teknolojisi ve metalurji uzmanı. EN 1090, ISO 3834 sürecinde derin saha tecrübesi. WPS ve PQR uzmanı.",
+        case: {
+          situation:
+            "Bursa'da bir sac konstrüksiyon firması Alman pazarı için EN 1090 EXC2 hedefliyordu.",
+          problem:
+            "2 farklı danışmanla 8 ay önce başlamış süreç, hâlâ belge yok. WPS dosyaları eksik, kaynakçı sertifikaları geçersiz, WCS atanmamış.",
+          solution:
+            "Mevcut durum + boşluk haritası, 3 kritik kaynak prosedürünün yeniden kalifikasyonu (PQR), WCS ataması, akredite Türk kuruluşa yeniden başvuru.",
+          result:
+            "4 ay içinde EN 1090 EXC2 belgesi alındı; aynı yıl ilk Alman müşteriye sevkiyat tamamlandı.",
+        },
       },
       {
         name: "Erkan",
         role: "Kalite Mühendisi",
         bio: "Teknik resim yorumlama, GD&T toleransları, ölçüm sistemleri. Alman otomotiv yan sanayisinde aktif.",
+        case: {
+          situation:
+            "Eskişehir'de bir makine imalat firması Alman otomotiv ana sanayisinden tedarikçi onay süreci için çizim aldı.",
+          problem:
+            "İlk numunede 4 ölçü tolerans dışı; GD&T sembolleri ve ISO 5817 B kalite kaynak dikişi yanlış yorumlanmış.",
+          solution:
+            "12 sayfalık çizimin sembol-sembol Türkçe yorumlanması, 3D CMM ile kritik ölçülerin teyidi, atölye için Türkçe WPS ve kontrol planı hazırlığı.",
+          result:
+            "2. numune ilk denemede onaylandı; 18 aylık tedarikçi onay süreci tamamlandı, seri üretim başladı.",
+        },
       },
     ],
   },
@@ -354,6 +391,144 @@ export const tr = {
         url: "https://www.bafa.de",
       },
     ],
+    standardsTeaser: {
+      eyebrow: "Standart sözlüğü",
+      title: "Sık karşılaşılan standartlar",
+      desc: "EN 1090, ISO 3834, ISO 5817 ve daha fazlası — her birinin ne anlama geldiğini, kimin için zorunlu olduğunu ve hangi belgeleme kuruluşundan alınacağını tek bir referans sayfasında topladık.",
+      cta: "Standartlar sayfasını aç",
+    },
+  },
+  standards: {
+    title: "Standartlar Sözlüğü",
+    subtitle:
+      "Almanya'ya kaynaklı imalat satarken hangi standardın ne anlama geldiğini, kimin için zorunlu olduğunu ve hangi kuruluştan alınacağını burada açıklıyoruz. Hızlı referans amaçlıdır — danışmanlık değildir.",
+    intro: {
+      title: "Üç tip standart, üç farklı amaç",
+      body: "Kaynaklı imalat dünyasında standartlar üç temel kategoride toplanır: sistem (üretim altyapınızın genel kalite çerçevesi), süreç (kaynakçı ve prosedür kalifikasyonu) ve ürün (çıkan parçanın geometrisi ve kaynak kalitesi). Almanya pazarına satış yaparken çoğu zaman her üç kategoriden en az bir standart gerekir.",
+    },
+    categories: [
+      {
+        key: "system",
+        title: "Sistem standartları",
+        desc: "Üretim altyapınızın genel kalite çerçevesi. Almanya'ya yapısal/lasttragend ürün satıyorsanız zorunludur.",
+        items: [
+          {
+            code: "EN 1090-1 / -2",
+            name: "Çelik konstrüksiyon ürünleri için CE uygunluğu",
+            what:
+              "Yapısal çelik elemanların imalatı için fabrika üretim kontrolü (FPC) ve uygunluk değerlendirme sistemi.",
+            forWhom:
+              "Almanya'da binalara, köprülere, çelik konstrüksiyonlara entegre edilen üretici. EXC1 (basit) — EXC4 (kritik) sınıfları.",
+            issuer:
+              "EN 1090 onaylı kuruluşlar (TÜV NORD, TÜV SÜD, DEKRA, SZA, vb.). TÜRKAK akredite Türk kuruluşları kabul edilebilir.",
+          },
+          {
+            code: "ISO 3834-2 / -3 / -4",
+            name: "Kaynaklı imalat için kalite gereksinimleri",
+            what:
+              "Metalik malzemelerin ergitme kaynağında kalite gereksinimlerinin üç seviyesi: kapsamlı (-2), standart (-3), temel (-4).",
+            forWhom:
+              "EN 1090 belgesi alacak hemen herkes (genellikle -2 zorunlu). Direkt belge değil, EN 1090'ın temelidir.",
+            issuer:
+              "EN 1090 ile birlikte alınır; bağımsız da belgelenebilir. Aynı kuruluşlar.",
+          },
+        ],
+      },
+      {
+        key: "process",
+        title: "Süreç standartları",
+        desc: "Kaynak prosedürlerinin ve kaynakçıların doğrulanması. Ürünün arkasındaki insan ve yöntem kalitesi.",
+        items: [
+          {
+            code: "EN ISO 15614-1",
+            name: "Kaynak prosedür kalifikasyonu (WPQR / PQR)",
+            what:
+              "Belirli bir malzeme, kalınlık, pozisyon ve yöntem için kaynak prosedürünün test sonuçlarıyla onaylanması.",
+            forWhom:
+              "Her yeni malzeme/kalınlık kombinasyonu için. Müşteri çoğu zaman PQR talep eder.",
+            issuer:
+              "Akredite test laboratuvarı + onaylı kaynak gözetmeni. Türkiye'de TÜRKAK akredite kuruluşlar var.",
+          },
+          {
+            code: "EN ISO 9606-1",
+            name: "Kaynakçı performans sertifikası",
+            what:
+              "Bireysel kaynakçının belirli yöntem/pozisyon/malzeme için yeterliliğinin sınavla belgelenmesi.",
+            forWhom:
+              "Her kaynakçınız için — 2 yıllık geçerlilik, 6 ayda bir denetim imzası ile yenilenir.",
+            issuer:
+              "TÜRKAK akredite kuruluşlar (örn. Türk Loydu, SZUTEST, TSE). Alman kuruluşlardan da alınabilir.",
+          },
+          {
+            code: "EN ISO 14731",
+            name: "Kaynak gözetim personeli (WCS)",
+            what:
+              "Üretimde kaynak süreçlerini denetleyecek nitelikli personel görev tanımı. IWE/IWT/IWS seviyeleri.",
+            forWhom:
+              "ISO 3834-2/-3 alacak her firma; EN 1090 EXC2 ve üzeri sınıflar için zorunlu.",
+            issuer:
+              "DVS-PersZert (Almanya), GSI veya SLV gibi yetkili eğitim merkezleri; IIW (Uluslararası Kaynak Enstitüsü) onaylı.",
+          },
+        ],
+      },
+      {
+        key: "product",
+        title: "Ürün ve çizim standartları",
+        desc: "Çıkan parçanın geometrisi, toleransları ve kaynak kalitesi — yani teknik resimde gördüğünüz sembollerin anlamı.",
+        items: [
+          {
+            code: "ISO 5817",
+            name: "Kaynak dikiş kalite seviyeleri (B / C / D)",
+            what:
+              "Kaynak hatalarının tipi, boyutu ve sıklığı için kabul kriterleri. B: yüksek, C: orta, D: temel kalite.",
+            forWhom:
+              "Çizimde 'B' işaretli kaynak gördüğünüzde — bu kaynakta hata toleransının dar olduğu anlamına gelir.",
+            issuer:
+              "Standart kendisi belge değil; ISO 3834 kapsamında uygulanır. Çizim okuma ve QC için temel.",
+          },
+          {
+            code: "ISO 1101 (GD&T)",
+            name: "Form ve konum toleransları",
+            what:
+              "Geometrik tolerans sembolleri (paralellik, dikgenlik, profil, vb.). 3D koordinat ölçüm (CMM) ile değerlendirilir.",
+            forWhom:
+              "Alman otomotiv/havacılık/makine sanayisine satıyorsanız çizimlerinde mutlaka göreceksiniz.",
+            issuer:
+              "Standart, belge değil. Atölyede CMM erişimi veya dış lab. tarafından ölçüm yapılır.",
+          },
+          {
+            code: "DIN EN ISO 22553",
+            name: "Kaynak sembolleri",
+            what:
+              "Teknik resim üzerindeki kaynak işaretlerinin (dikiş tipi, boyut, uzunluk, kalite seviyesi) standart anlamı.",
+            forWhom:
+              "Çizim alan, teklif hazırlayan, üretim planlayan herkes. Yanlış okuma = reklamasyon.",
+            issuer:
+              "Standart, belge değil. Mühendis/operatör eğitimi gerektirir.",
+          },
+        ],
+      },
+    ],
+    legend: {
+      title: "Her satırda ne var?",
+      items: [
+        {
+          k: "Ne",
+          v: "Standardın özü — ne yapar, neyi tanımlar.",
+        },
+        {
+          k: "Kim için",
+          v: "Hangi tip üretici/durum için zorunlu veya gerekli.",
+        },
+        {
+          k: "Kimden",
+          v: "Belgeyi hangi kuruluştan, lab.'dan veya sertifikasyon kurumundan alırsınız.",
+        },
+      ],
+    },
+    disclaimer:
+      "Bu sayfa hızlı referans amaçlıdır. Her firmaya, ürüne ve müşteri gereksinime göre standart kombinasyonu değişir. Sizin için doğru kombinasyonu belirlemek için ücretsiz ön görüşmemizden yararlanın.",
+    cta: "Bizim için doğru standart kombinasyonu hangisi?",
   },
   contact: {
     title: "İletişim",
@@ -407,6 +582,7 @@ export const tr = {
     company: {
       about: "Hakkımızda",
       resources: "Kaynaklar",
+      standards: "Standartlar",
       contact: "İletişim",
     },
     legal: {
