@@ -251,8 +251,8 @@ export const de: Dict = {
     members: [
       {
         name: "Hamdi Güncavdi",
-        role: "IT & Prozessleitung",
-        bio: "12+ Jahre IT-Manager in Deutschland. System, Netzwerk, Prozessdesign. Operative Steuerung der Türkei-Deutschland-Brücke.",
+        role: "IT & CAD",
+        bio: "12+ Jahre IT-Manager in Deutschland. Aktiv mit SolidWorks und AutoCAD in Stahlkonstruktion und Blechverarbeitung. Koordiniert die Türkei-Deutschland-Operationen.",
       },
       {
         name: "Fatih",

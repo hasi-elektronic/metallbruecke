@@ -248,8 +248,8 @@ export const tr = {
     members: [
       {
         name: "Hamdi Güncavdi",
-        role: "IT & Süreç Lideri",
-        bio: "Almanya'da 12+ yıl IT yöneticisi. Sistem, ağ, süreç tasarımı. Türkiye-Almanya köprüsünün operasyon tarafını yönetir.",
+        role: "IT & CAD",
+        bio: "Almanya'da 12+ yıl IT yöneticisi. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde aktif. Türkiye-Almanya operasyonlarını koordine eder.",
       },
       {
         name: "Fatih",
