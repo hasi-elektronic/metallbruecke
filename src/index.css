@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  /* Selection color */
+  ::selection {
+    background-color: #f4a024;
+    color: #0a2540;
+  }
+  /* Focus default cleanup */
+  :focus {
+    outline: none;
+  }
+  :focus-visible {
+    outline: 2px solid #f4a024;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  /* Custom anchor offset for sticky header */
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+}
