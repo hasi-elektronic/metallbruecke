@@ -246,6 +246,7 @@ export const tr = {
     eyebrow: "Ekip",
     title: "Türk-Alman uzman ekibi",
     caseLabel: "Vaka örneği",
+    skillsLabel: "Uzmanlık alanları",
     caseLabels: {
       situation: "Durum",
       problem: "Sorun",
@@ -256,7 +257,8 @@ export const tr = {
       {
         name: "Hamdi Güncavdi",
         role: "CAD & Operasyon",
-        bio: "Almanya endüstrisinde uzun yıllık saha deneyimi. SolidWorks ve AutoCAD ile çelik konstrüksiyon ve sac işleme çizimlerinde sahada deneyim sahibi. Türkiye-Almanya operasyonlarını koordine eder.",
+        bio: "Almanya endüstrisinde uzun yıllık saha deneyimi. SolidWorks ve AutoCAD ile ekibe çizim ve dokümantasyon desteği verir. Türkiye-Almanya operasyon koordinasyonunu üstlenir.",
+        skills: ["SolidWorks", "AutoCAD", "Operasyon koordinasyonu"],
         case: {
           situation:
             "Konya'lı bir tarım makineleri üreticisi 4 farklı Alman müşteriyle paralel görüşme yürütüyordu.",
@@ -271,7 +273,20 @@ export const tr = {
       {
         name: "Fatih",
         role: "Schweißfachmann (DVS)",
-        bio: "DVS sertifikalı kaynak uzmanı. Almanya'da endüstriyel kaynak üretiminde aktif. EN 1090, ISO 3834, WPS ve PQR süreçlerinde saha deneyimi.",
+        bio: "DVS sertifikalı Schweißfachmann. Almanya'da çelik konstrüksiyon ve basınçlı kap üretiminde uzun yıllık saha deneyimi. EN 1090 (EXC1–EXC4) ve ISO 3834-2 süreçlerinde WPS hazırlama, EN ISO 15614-1 prosedür kalifikasyonu (PQR), EN ISO 9606 kaynakçı sertifikalandırma. MIG/MAG, TIG, MMA kaynak yöntemleri; karbon çeliği, paslanmaz ve alüminyum. ISO 5817 kapsamında kaynak dikiş kalite değerlendirmesi ve sahada kaynakçı eğitimi.",
+        skills: [
+          "EN 1090 EXC1–EXC4",
+          "ISO 3834-2",
+          "WPS / PQR",
+          "EN ISO 15614-1",
+          "EN ISO 9606",
+          "MIG/MAG · TIG · MMA",
+          "ISO 5817 değerlendirme",
+          "Çelik konstrüksiyon",
+          "Basınçlı kap",
+          "Paslanmaz · Alüminyum",
+          "Kaynakçı eğitimi",
+        ],
         case: {
           situation:
             "Bursa'da bir sac konstrüksiyon firması Alman pazarı için EN 1090 EXC2 hedefliyordu.",
@@ -286,7 +301,19 @@ export const tr = {
       {
         name: "Erkan",
         role: "Schweißfachmann (DVS)",
-        bio: "DVS sertifikalı kaynak uzmanı. Alman otomotiv yan sanayisinde aktif. Teknik resim yorumlama, GD&T toleransları ve ölçüm sistemlerinde sahada deneyim.",
+        bio: "DVS sertifikalı Schweißfachmann. Alman otomotiv yan sanayisinde uzun yıllık saha deneyimi. Teknik resim yorumlama (DIN EN ISO 22553 kaynak sembolleri), GD&T toleransları (ISO 1101), 3D koordinat ölçüm (CMM) ile kalite kontrolü. IATF 16949 kalite yönetimi, PPAP / APQP / FMEA dokümantasyonu, 8D problem çözme metodu. ISO 5817 B/C/D seviyelerine göre kaynak dikiş değerlendirmesi ve atölye eğitimi.",
+        skills: [
+          "DIN EN ISO 22553",
+          "GD&T (ISO 1101)",
+          "CMM 3D ölçüm",
+          "IATF 16949",
+          "PPAP · APQP · FMEA",
+          "8D problem çözme",
+          "ISO 5817 B/C/D",
+          "Otomotiv yan sanayi",
+          "Teknik resim yorumlama",
+          "Atölye eğitimi",
+        ],
         case: {
           situation:
             "Eskişehir'de bir makine imalat firması Alman otomotiv ana sanayisinden tedarikçi onay süreci için çizim aldı.",

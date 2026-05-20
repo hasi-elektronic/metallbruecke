@@ -249,6 +249,7 @@ export const de: Dict = {
     eyebrow: "Team",
     title: "Türkisch-deutsches Fachteam",
     caseLabel: "Fallbeispiel",
+    skillsLabel: "Kompetenzen",
     caseLabels: {
       situation: "Ausgangslage",
       problem: "Problem",
@@ -259,7 +260,8 @@ export const de: Dict = {
       {
         name: "Hamdi Güncavdi",
         role: "CAD & Operations",
-        bio: "Langjährige Praxiserfahrung in der deutschen Industrie. Praxiserprobt mit SolidWorks und AutoCAD in Stahlkonstruktion und Blechverarbeitung. Koordiniert die Türkei-Deutschland-Operationen.",
+        bio: "Langjährige industrielle Praxis in Deutschland. Unterstützt das Team mit SolidWorks und AutoCAD bei Zeichnungen und technischer Dokumentation. Übernimmt die operative Koordination zwischen Türkei und Deutschland.",
+        skills: ["SolidWorks", "AutoCAD", "Operative Koordination"],
         case: {
           situation:
             "Ein Hersteller von Landmaschinen aus Konya betreute parallel vier deutsche Kunden.",
@@ -274,7 +276,20 @@ export const de: Dict = {
       {
         name: "Fatih",
         role: "Schweißfachmann (DVS)",
-        bio: "DVS-zertifizierter Schweißfachmann. Aktiv in der industriellen Schweißfertigung in Deutschland. Praxiserfahrung in EN 1090, ISO 3834, WPS- und PQR-Prozessen.",
+        bio: "DVS-zertifizierter Schweißfachmann. Langjährige Praxiserfahrung in der deutschen Stahlbau- und Druckbehälterfertigung. WPS-Erstellung nach EN 1090 (EXC1–EXC4) und ISO 3834-2, Verfahrensprüfung nach EN ISO 15614-1 (PQR), Schweißerprüfung nach EN ISO 9606. Schweißverfahren MIG/MAG, WIG, E-Hand; Werkstoffe Baustahl, Edelstahl, Aluminium. Schweißnahtbewertung nach ISO 5817 sowie Schulung von Schweißpersonal vor Ort.",
+        skills: [
+          "EN 1090 EXC1–EXC4",
+          "ISO 3834-2",
+          "WPS / PQR",
+          "EN ISO 15614-1",
+          "EN ISO 9606",
+          "MIG/MAG · WIG · E-Hand",
+          "ISO 5817 Bewertung",
+          "Stahlbau",
+          "Druckbehälterbau",
+          "Edelstahl · Aluminium",
+          "Schweißerschulung",
+        ],
         case: {
           situation:
             "Ein Blechkonstruktionsbetrieb in Bursa strebte für den deutschen Markt die EN 1090 EXC2 an.",
@@ -289,7 +304,19 @@ export const de: Dict = {
       {
         name: "Erkan",
         role: "Schweißfachmann (DVS)",
-        bio: "DVS-zertifizierter Schweißfachmann. Aktiv in der deutschen Automobilzulieferindustrie. Praxiserfahrung in Zeichnungsinterpretation, GD&T-Toleranzen und Messsystemen.",
+        bio: "DVS-zertifizierter Schweißfachmann. Langjährige Praxiserfahrung in der deutschen Automobilzulieferindustrie. Zeichnungsinterpretation (Schweißsymbole nach DIN EN ISO 22553), GD&T-Toleranzen (ISO 1101), 3D-Koordinatenmessung (KMG) zur Qualitätskontrolle. IATF 16949 Qualitätsmanagement, PPAP / APQP / FMEA-Dokumentation, 8D-Problemlösungsmethode. Schweißnahtbewertung nach ISO 5817 B/C/D sowie Werkstattschulungen.",
+        skills: [
+          "DIN EN ISO 22553",
+          "GD&T (ISO 1101)",
+          "KMG 3D-Messung",
+          "IATF 16949",
+          "PPAP · APQP · FMEA",
+          "8D-Methode",
+          "ISO 5817 B/C/D",
+          "Automotive-Zulieferer",
+          "Zeichnungsinterpretation",
+          "Werkstattschulung",
+        ],
         case: {
           situation:
             "Ein Maschinenbauunternehmen in Eskişehir erhielt eine Zeichnung für die Lieferantenfreigabe eines deutschen Automotive-OEM.",

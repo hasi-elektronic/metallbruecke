@@ -61,6 +61,25 @@ export function About() {
                 <h3 className="font-display font-bold text-lg text-navy">{member.name}</h3>
                 <div className="text-amber-500 font-semibold text-sm mt-1">{member.role}</div>
                 <p className="mt-4 text-anthracite/80 text-[15px] leading-relaxed">{member.bio}</p>
+
+                {/* Skills chips */}
+                {member.skills && member.skills.length > 0 && (
+                  <div className="mt-5 pt-5 border-t border-navy-100">
+                    <div className="text-[10px] font-bold uppercase tracking-widest text-navy/50 mb-3">
+                      {t.team.skillsLabel}
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {member.skills.map((skill, si) => (
+                        <span
+                          key={si}
+                          className="inline-block px-2.5 py-1 bg-amber-50 border border-amber-200 text-amber-700 text-[11px] font-semibold rounded"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Case study */}
