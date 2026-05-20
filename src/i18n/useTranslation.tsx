@@ -66,7 +66,6 @@ export function translatePath(currentPath: string, targetLang: Lang): string {
     },
     about: { tr: "/hakkimizda", de: "/de/ueber-uns" },
     resources: { tr: "/kaynaklar", de: "/de/ressourcen" },
-    standards: { tr: "/standartlar", de: "/de/normen" },
     contact: { tr: "/iletisim", de: "/de/kontakt" },
     impressum: { tr: "/impressum", de: "/de/impressum" },
     datenschutz: { tr: "/gizlilik", de: "/de/datenschutz" },
@@ -93,7 +92,6 @@ export function r(
     | "representation"
     | "about"
     | "resources"
-    | "standards"
     | "contact"
     | "impressum"
     | "datenschutz",
@@ -116,7 +114,6 @@ export function r(
     },
     about: { tr: "/hakkimizda", de: "/de/ueber-uns" },
     resources: { tr: "/kaynaklar", de: "/de/ressourcen" },
-    standards: { tr: "/standartlar", de: "/de/normen" },
     contact: { tr: "/iletisim", de: "/de/kontakt" },
     impressum: { tr: "/impressum", de: "/de/impressum" },
     datenschutz: { tr: "/gizlilik", de: "/de/datenschutz" },
